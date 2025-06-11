@@ -354,7 +354,7 @@
                 margin: 0;
                 text-align: left;
                 letter-spacing: 1px;
-                flex: 1 1 auto;
+                flex: 1 1 auto; 
                 min-width: 0;
                 white-space: nowrap;
                 overflow: hidden;
@@ -373,6 +373,10 @@
             }
             #main-nav {
                 top: 100%;
+            }
+            .carrusel-slide {
+                height: 150px; /* Antes: 200px */
+                border-radius: 12px;
             }
         }
         @media (max-width: 480px) {
@@ -400,6 +404,10 @@
             .menu-toggle {
                 align-self: flex-end;
                 margin: 0 0 0 auto;
+            }
+            .carrusel-slide {
+                height: 150px; /* Antes: 120px */
+                border-radius: 8px;
             }
         }
         /* Animación de partículas */
